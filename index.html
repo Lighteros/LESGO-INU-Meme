@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LESGO INU | GOINU</title>
+  <meta name="description" content="LESGO INU (GOINU) is the official dog mascot on Solana. Wink, sprint, and trade the yellow kennel coin." />
+  <link rel="icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <canvas id="sparks"></canvas>
+    <div class="paws" id="paws"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#hero">
+      <img src="logo.png" alt="LESGO INU mascot" />
+      <span>LESGO INU</span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#howtobuy">How to Buy</a>
+      <a href="#chart">Chart</a>
+      <a href="#join">Join</a>
+    </nav>
+    <a class="chip" href="https://x.com/LESGOINU" target="_blank" rel="noopener noreferrer">
+      <img src="icons/x.svg" alt="" />
+      GOINU
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy reveal">
+        <p class="kicker"><img src="icons/solana.svg" alt="" /> Solana memecoin</p>
+        <h1>LESGO<br />INU</h1>
+        <p class="symbol">Symbol <strong>GOINU</strong></p>
+        <p class="lead">LESGO Official Dog Mascot. One open eye, one wink, and a sprint that does not wait for permission.</p>
+        <div class="actions">
+          <a class="btn solid" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+            <img src="icons/pumpswap.svg" alt="" />
+            PumpSwap
+          </a>
+          <a class="btn ghost" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+            <img src="icons/dexscreener.svg" alt="" />
+            Dexscreener
+          </a>
+          <a class="btn ghost" href="https://x.com/LESGOINU" target="_blank" rel="noopener noreferrer">
+            <img src="icons/x.svg" alt="" />
+            Follow
+          </a>
+        </div>
+      </div>
+      <div class="mascot-stage reveal">
+        <div class="ring"></div>
+        <div class="ring ring-2"></div>
+        <img class="mascot" src="logo.png" alt="Winking Shiba mascot of LESGO INU" />
+        <span class="badge">Official Dog</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>LESGO INU</span><span>GOINU</span><span>SOLANA</span><span>OFFICIAL DOG MASCOT</span>
+        <span>LESGO INU</span><span>GOINU</span><span>SOLANA</span><span>OFFICIAL DOG MASCOT</span>
+      </div>
+    </div>
+
+    <section class="panel" id="about">
+      <div class="section-head reveal">
+        <p class="kicker">The kennel</p>
+        <h2>About the wink</h2>
+      </div>
+      <div class="about-grid">
+        <article class="card reveal">
+          <h3>Name</h3>
+          <p>LESGO INU is the sprint call and the coin. Short, loud, and built to be yelled from the porch.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Symbol</h3>
+          <p>GOINU sits on Solana. Same dog, same yellow yard, ticker you can actually type with one hand.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Mascot</h3>
+          <p>LESGO Official Dog Mascot. Orange coat, cream muzzle, black grin, and a wink that means the run already started.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="howtobuy">
+      <div class="section-head reveal">
+        <p class="kicker">Four strides</p>
+        <h2>How to buy</h2>
+      </div>
+      <ol class="steps">
+        <li class="card reveal">
+          <span class="num">01</span>
+          <img src="icons/phantom.svg" alt="" />
+          <h3>Open a wallet</h3>
+          <p>Install Phantom and keep the recovery phrase offline. This is the collar for your SOL.</p>
+        </li>
+        <li class="card reveal">
+          <span class="num">02</span>
+          <img src="icons/solana.svg" alt="" />
+          <h3>Load SOL</h3>
+          <p>Send Solana to the wallet. Leave a little extra for the network fee on the swap.</p>
+        </li>
+        <li class="card reveal">
+          <span class="num">03</span>
+          <img src="icons/pumpswap.svg" alt="" />
+          <h3>Swap on PumpSwap</h3>
+          <p>Trade SOL for GOINU on PumpSwap. Check the token name and ticker before you confirm.</p>
+          <a href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">Open PumpSwap</a>
+        </li>
+        <li class="card reveal">
+          <span class="num">04</span>
+          <img src="icons/dexscreener.svg" alt="" />
+          <h3>Watch the chart</h3>
+          <p>Follow price, liquidity, and trades on the Solana Dexscreener board.</p>
+          <a href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">Open Dexscreener</a>
+        </li>
+      </ol>
+    </section>
+
+    <section class="panel" id="chart">
+      <div class="section-head reveal">
+        <p class="kicker">Live board</p>
+        <h2>Chart</h2>
+      </div>
+      <div class="chart-frame reveal">
+        <iframe
+          title="LESGO INU Dexscreener chart"
+          src="https://dexscreener.com/solana?embed=1&theme=light&info=0&trades=0"
+          loading="lazy"
+          allow="clipboard-write"
+        ></iframe>
+      </div>
+      <p class="chart-note reveal">
+        Solana chart lives on
+        <a href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">dexscreener.com/solana</a>.
+      </p>
+    </section>
+
+    <section class="panel join" id="join">
+      <div class="section-head reveal">
+        <p class="kicker">The yard</p>
+        <h2>Join us</h2>
+      </div>
+      <figure class="banner-wrap reveal">
+        <img src="banner.png" alt="LESGO INU banner with the mascot perched on the letters" />
+      </figure>
+      <div class="join-row reveal">
+        <a class="btn solid" href="https://x.com/LESGOINU" target="_blank" rel="noopener noreferrer">
+          <img src="icons/x.svg" alt="" />
+          x.com/LESGOINU
+        </a>
+        <a class="btn ghost" href="https://swap.pump.fun/" target="_blank" rel="noopener noreferrer">
+          <img src="icons/pumpswap.svg" alt="" />
+          PumpSwap
+        </a>
+        <a class="btn ghost" href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer">
+          <img src="icons/dexscreener.svg" alt="" />
+          Dexscreener
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>LESGO INU · GOINU · LESGO Official Dog Mascot · Solana</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
