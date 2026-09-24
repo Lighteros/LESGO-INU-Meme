@@ -146,6 +146,19 @@ h1 {
   padding: 2px 12px 6px;
   border-radius: 12px;
 }
+.ca {
+  margin-top: 14px;
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 1.35;
+  word-break: break-all;
+}
+.ca span {
+  background: var(--ink);
+  color: var(--sun);
+  padding: 4px 10px 6px;
+  border-radius: 12px;
+}
 .lead { margin-top: 16px; max-width: 540px; font-size: 22px; line-height: 1.35; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
 .btn { font-size: 18px; padding: 12px 18px; }
